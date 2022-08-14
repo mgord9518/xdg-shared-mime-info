@@ -6484,6 +6484,11 @@ command to generate the output files.
     <sub-class-of type="text/plain"/>
     <glob pattern="*.log"/>
   </mime-type>
+  <mime-type type="application/x-log-compressed">
+    <comment>application log (gzip-compressed)</comment>
+    <sub-class-of type="application/gzip"/>
+    <glob pattern="*.log.gz"/>
+  </mime-type>
   <mime-type type="text/x-makefile">
     <comment>Makefile build file</comment>
     <sub-class-of type="text/plain"/>
